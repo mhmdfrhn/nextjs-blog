@@ -1,8 +1,9 @@
-import Button from "@/components/button/Button";
-import Image from "next/image";
+import React from "react";
 import styles from "./page.module.css";
+import Image from "next/image";
+import Button from "@/components/Button/Button";
 
-export default function About() {
+const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
@@ -57,4 +58,6 @@ export default function About() {
       </div>
     </div>
   );
-}
+};
+
+export default About;

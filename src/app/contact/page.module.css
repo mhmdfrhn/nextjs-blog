@@ -19,7 +19,7 @@
   position: relative;
 }
 
-.img {
+.image {
   object-fit: contain;
   /* animation: move 3s infinite ease alternate; */
 }
@@ -29,7 +29,7 @@
     transform: translateY(-15px);
   }
   to {
-    transform: translateY(0) scale(1.03);
+    transform: translateY(0px) scale(1.03);
   }
 }
 
@@ -42,12 +42,12 @@
 
 .input,
 .textArea {
-  color: #bbb;
   padding: 20px;
   background-color: transparent;
   border: none;
   outline: none;
+  color: #bbb;
   border: 3px solid #bbb;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }

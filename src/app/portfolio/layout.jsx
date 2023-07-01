@@ -1,10 +1,12 @@
 import styles from "./page.module.css";
 
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <div>
-      <h1 className={styles.mainTitle}>Our Work</h1>
+      <h1 className={styles.mainTitle}>Our Works</h1>
       {children}
     </div>
   );
-}
+};
+
+export default Layout;
